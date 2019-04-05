@@ -2,7 +2,7 @@
 *Files to look at*:
 
 * [MainWindow.xaml](./CS/WpfApplication68/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication68/MainWindow.xaml))
-* [MainWindow.xaml.cs](./CS/WpfApplication68/MainWindow.xaml.cs) (VB: [MainWindow.xaml](./VB/WpfApplication68/MainWindow.xaml))
+* [MainWindow.xaml.cs](./CS/WpfApplication68/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication68/MainWindow.xaml.vb))
 <!-- default file list end -->
 # How to enable the multi-selection mode in LookUpEdit
 
