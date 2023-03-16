@@ -8,14 +8,12 @@
         Height="350">
 
     <Grid VerticalAlignment="Center">
-        <dxg:LookUpEdit DisplayMember="Name" IsTextEditable="False" ItemsSource="{x:Static local:Helper.Data}">
-            <dxg:LookUpEdit.PopupContentTemplate>
-                <ControlTemplate>
-                    <dxg:GridControl x:Name="PART_GridControl" SelectionMode="MultipleRow" />
-                </ControlTemplate>
-            </dxg:LookUpEdit.PopupContentTemplate>
+        <dxg:LookUpEdit ItemsSource="{x:Static local:Helper.Data}"
+                        DisplayMember="Name"
+                        IsTextEditable="False"
+                        SeparatorString="; ">
             <dxg:LookUpEdit.StyleSettings>
-                <dxg:MultiSelectLookUpEditStyleSettings />
+                <dxg:MultiSelectLookUpEditStyleSettings/>
             </dxg:LookUpEdit.StyleSettings>
         </dxg:LookUpEdit>
     </Grid>
