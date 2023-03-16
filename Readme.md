@@ -12,7 +12,7 @@ This example demonstrates how to allow users to select multiple items in the [Lo
 
 To enable multiple selection mode, set the editor's [StyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.BaseEdit.StyleSettings) property to an object that supports this mode ([MultiSelectLookUpEditStyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.MultiSelectLookUpEditStyleSettings), [TokenLookUpEditStyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.TokenLookUpEditStyleSettings), or [SearchTokenLookUpEditStyleSettings](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.LookUp.SearchTokenLookUpEditStyleSettings)).
 
-You can use the [PopupContentTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.PopupBaseEdit.PopupContentTemplate) property to customize the selection behavior or display the [checkbox selector column](https://docs.devexpress.com/WPF/17808/controls-and-libraries/data-grid/visual-elements/table-view-elements/selector-column) as demonstrated in the following example: [LookUpEdit - How to support multiple row selection with CheckBoxes](https://github.com/DevExpress-Examples/LookUpEdit-How-to-support-multiple-row-selection-with-CheckBoxes).
+You can use the [PopupContentTemplate](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.PopupBaseEdit.PopupContentTemplate) property to customize the selection behavior or display the [checkbox selector column](https://docs.devexpress.com/WPF/17808/controls-and-libraries/data-grid/visual-elements/table-view-elements/selector-column) as demonstrated in the following example: [WPF LookUpEdit - Display CheckBoxes for Multiple Selection Mode](https://github.com/DevExpress-Examples/wpf-lookupedit-display-checkboxes-for-multiple-selection-mode).
 
 ## Files to Review
 
@@ -26,7 +26,7 @@ You can use the [PopupContentTemplate](https://docs.devexpress.com/WPF/DevExpres
 
 ## More Examples
 
-* [LookUpEdit - How to support multiple row selection with CheckBoxes](https://github.com/DevExpress-Examples/LookUpEdit-How-to-support-multiple-row-selection-with-CheckBoxes)
+* [WPF LookUpEdit - Display CheckBoxes for Multiple Selection Mode](https://github.com/DevExpress-Examples/wpf-lookupedit-display-checkboxes-for-multiple-selection-mode)
 * [WPF LookUpEdit - Customize the Embedded Data Grid](https://github.com/DevExpress-Examples/wpf-lookupedit-customize-the-embedded-data-grid)
 * [WPF LookUpEdit - Display a TreeList as Popup Content](https://github.com/DevExpress-Examples/wpf-lookupedit-display-treelist-as-popup-content)
 * [WPF LookUpEdit - Filter by Multiple Columns](https://github.com/DevExpress-Examples/wpf-lookupedit-filter-by-multiple-columns)
